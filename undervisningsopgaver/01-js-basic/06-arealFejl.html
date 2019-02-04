@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-js-basic</title>
+</head>
+
+<body>
+   <script>
+       let length = prompt("Angiv length");
+       let width = prompt("Angiv width");
+
+       function areal(l, w) {
+           let a = (l * w);
+           if(a == 0) {
+               return(`Husk Længde og bredde skal være tal.\n Prøv igen`)
+           } else {
+               return (`Arealet er ${a} \n vil du lave et nyt? `)
+           }
+
+       }
+
+       let resultat = areal(length, width);
+
+       confirm(resultat);
+
+       if(confirm) {
+           location.reload();
+       }
+
+     //   console.log(resultat);
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

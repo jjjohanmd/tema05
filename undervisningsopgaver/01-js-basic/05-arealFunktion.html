@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-js-basic</title>
+</head>
+
+<body>
+   <script>
+       let length = promt("Angiv length");
+       let width = promt("Angiv width");
+
+       //Lav en funktion, areal, som med længde og
+       //bredde som parametre, kan udregne et areal,
+         //  og returnere resultatet.
+       //let areal = length * width;
+
+       function areal(l, w) {
+           return (l * w);
+
+       }
+
+       let resultat = `Arealet er ${areal(length, width)}. Har du brug for et nyt?`;
+
+       confirm(resultat);
+
+       if(confirm) {
+           location.reload();
+       }
+
+     //   console.log(resultat);
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

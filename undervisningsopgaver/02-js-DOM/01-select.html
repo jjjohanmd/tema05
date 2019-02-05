@@ -7,29 +7,30 @@
 </head>
 
 <body>
-   <div id="content">
-       <div> <a href="https://kea.dk/">Link til KEA</a>  </div>
-          <div><a href="https://github.com/jjjohanmd"> Link til Github</a></div>
-      <div>
-           <img src="http://helf-kea.dk/test/frog.png" alt="froe">
-       </div>
+    <div id="content">
+        <div>
+            <a href="https://kea.dk/">Link til KEA</a> </div>
+        <div>
+            <a href="https://github.com/jjjohanmd"> Link til Github</a></div>
+        <div>
+            <img src="http://helf-kea.dk/test/frog.png" alt="froe">
+        </div>
 
 
 
-   </div>
+    </div>
+    <script>
+        // DENNE KAN OGSÅ BRUGES: let content = document.querySelector("#content");
+        document.querySelector("#content");
+        //console.log(document.querySelector("#content"));
+        //console.log(document.querySelector("#content div"));
+        //console.log(document.querySelector("#content div + div"));
+        //console.log(document.querySelector("#content div + div + div"));
+        //console.log(document.querySelector("#content div a"));
+        //console.log(document.querySelector("#content div + div a"));
+        console.log(document.querySelector("img"));
 
-   <script>
-       document.querySelector("#content");
-       console.log(document.querySelector("#content"));
-       console.log(document.querySelector("#content div"));
-       console.log(document.querySelector("#content div + div"));
-       console.log(document.querySelector("#content div + div + div"));
-       console.log(document.querySelector("#content div a"));
-       console.log(document.querySelector("#content div + div a"));
-       console.log(document.querySelector("img"));
-
-
-
+        // Div:nth-child(3) eller fx (even) RIGTIG GOD SELECTOR!!
     </script>
 
 </body>
